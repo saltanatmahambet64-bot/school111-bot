@@ -10,7 +10,7 @@ from aiogram.fsm.context import FSMContext
 from aiogram.fsm.state import State, StatesGroup
 from aiogram.fsm.storage.memory import MemoryStorage
 
-BOT_TOKEN = "8688251662:AAHALoLBiIxTv2UJ0buE4vGctg7AM09K70c"
+TOKEN = os.getenv("BOT_TOKEN")
 ADMIN_ID = 8327290268  # Ваши права администратора подключены!
 
 bot = Bot(token=BOT_TOKEN)
